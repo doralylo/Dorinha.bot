@@ -5,7 +5,7 @@ from highrise import*
 from highrise import BaseBot,User,CurrencyItem,GetMessagesRequest,Item,Position
 from highrise.models import SessionMetadata
 
-moderators = ["iMooseMoo","Miwiii","zero114","iJollie","Mahh___","Matativ0__"]
+moderators = ["iMooseMoo","Miwiii","zero114","iJollie","Mahh___","Dora.lilo"]
 
 cara = ["😢caiu coroa mais sorte na proxima...","parabens você ganhou caiu cara..."]
 
