@@ -56,13 +56,13 @@ react = ["wave","wink","thumbs","heart","clap"]
 class Bot(BaseBot):
     async def on_start(self, session_metadata: SessionMetadata) -> None:
         print("funcionando")  
-        await self.highrise.walk_to(Position(14.5 , 0.0 , 12.5 , "FrontRight"))
+        await self.highrise.walk_to(Position(1.0 , 6.5 , 12.5 , "FrontRight"))
     async def on_user_join(self, user: User, position: Position | AnchorPosition) -> None:
         print(f"{user.username} entrou na sala") 
         if user.username in moderators:
          await self.highrise.chat(f"🚫{user.username} Moderador(a) da sala\n[Entrou na sala]")
          
-        await self.highrise.chat(f"Seja Bem Vindo {user.username}")
+        await self.highrise.chat(f"Bem vindo(a) ao aniversário da Dora com o DJ Stanley, DJ luk aproveitem❤️🎂")
 
         await self.highrise.chat(f"Se precisar de ajuda use !help")
         
